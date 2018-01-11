@@ -3,7 +3,7 @@ import click
 from stat import ST_MODE, S_ISREG
 import re
 
-from converter import BratToCoNLLConverter
+from brat2conll.converter import BratToCoNLLConverter
 
 
 def file_process(bratInfile, conllInfile, verbose=False):
