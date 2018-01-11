@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-import unicodedata
 import codecs
 import click
 import os
