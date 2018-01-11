@@ -41,9 +41,10 @@ def check_and_process(pathname, verbose=False):
 @click.option('-v', '--verbose', default=False, required=False, is_flag=True, help='Enables verbose mode')
 @click.version_option()
 def main(input_path, verbose):
-    click.echo('Input path name: {0}'.format(input_path))
     if os.path.isdir(input_path):
         with click.progressbar(os.listdir(input_path), label='Info: Converting the files') as bar:
+            click.echo('Input path name: {0}'.format(input_path))
+
             for f in bar:
                 pathname = os.path.join(input_path, f)
 
