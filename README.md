@@ -8,9 +8,9 @@ More information on the brat standoff format can be found [here](http://brat.nlp
 
 More information on the CDLI-CoNLL file format can be found [here](https://cdli-gh.github.io/guide_overview.html).
 
-# Using the tool
+## Using the tool
 
-## Installation
+### Installation
 
 If you don't have pip installed on your system, please find the instructions [here](https://pip.pypa.io/en/stable/installing/).
 
@@ -34,7 +34,7 @@ cd brat_to_cdli_conll_converter
 pip install .
 ```
 
-## Upgrading
+### Upgrading
 
 To upgrade this tool, you can run the following commands:
 
@@ -56,7 +56,7 @@ git pull origin master
 pip install . --upgrade
 ```
 
-## Execution
+### Execution
 
 To use/execute this tool, run one of the following commands:
 
