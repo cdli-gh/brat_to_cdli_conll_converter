@@ -7,19 +7,19 @@ If you don't have pip installed on your system, please find the instructions [he
 
 To install this converter, you can run the following commands:
 
-```python
+```
 pip install git+git://github.com/cdli-gh/brat_to_cdli_conll_converter.git
 ```
 
 OR
 
-```python
+```
 pip install git+https://github.com/cdli-gh/brat_to_cdli_conll_converter.git
 ```
 
 OR
 
-```python
+```
 git clone https://github.com/cdli-gh/brat_to_cdli_conll_converter.git
 cd brat_to_cdli_conll_converter
 pip install .
@@ -29,19 +29,19 @@ pip install .
 
 To upgrade this tool, you can run the following commands:
 
-```python
+```
 pip install git+git://github.com/cdli-gh/brat_to_cdli_conll_converter.git --upgrade
 ```
 
 OR
 
-```python
+```
 pip install git+https://github.com/cdli-gh/brat_to_cdli_conll_converter.git --upgrade
 ```
 
 OR
 
-```python
+```
 cd brat_to_cdli_conll_converter
 git pull origin master
 pip install . --upgrade
@@ -75,7 +75,9 @@ brat2conll --help
 
 If you don't use any arguments, it will prompt for the input file path as follows:
 > $ brat2conll
+
 > Input path: data
+
 > Info: Converting the files  [####################################]  100%
 
 
