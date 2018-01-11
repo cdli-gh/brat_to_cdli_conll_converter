@@ -4,7 +4,7 @@ dependencies = ['click']
 
 setup(
     name='brat2conllconverter',
-    version='',
+    version='2.0.0',
     url='https://github.com/cdli-gh/brat_to_cdli_conll_converter',
     license='BSD',
     author='Shraddha Manchekar',
@@ -16,9 +16,11 @@ setup(
     zip_safe=False,
     platforms='any',
     install_requires=dependencies,
+
     entry_points={
+
         'console_scripts': [
-            'brat2conll = brat_to_cdli_conll_converter.cli:main',
+            'brat2conll = brat2conll.cli:main',
         ],
     },
     classifiers=[
