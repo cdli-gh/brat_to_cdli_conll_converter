@@ -51,6 +51,3 @@ def main(input_path, verbose):
     else:
         check_and_process(input_path, verbose)
 
-
-if __name__ == '__main__':
-    main()
