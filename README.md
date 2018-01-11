@@ -74,11 +74,11 @@ brat2conll --help
 ```
 
 If you don't use any arguments, it will prompt for the input file path as follows:
-> $ brat2conll
-
-> Input path: data
-
-> Info: Converting the files  [####################################]  100%
+```
+$ brat2conll
+Input path: data
+Info: Converting the files  [####################################]  100%
+```
 
 
 
