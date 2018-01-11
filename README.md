@@ -1,5 +1,12 @@
 # brat_to_cdli_conll_converter
-Brat standoff to CDLI-CoNLL Converter
+##Brat standoff to CDLI-CoNLL Converter
+
+This tool converts a Brat standoff file format to a CDLI-CoNLL format.
+
+More information on the brat standoff format can be found [here](http://brat.nlplab.org/standoff.html).
+
+More information on the CDLI-CoNLL file format can be found [here](https://cdli-gh.github.io/guide_overview.html).
+
 
 ## Installation
 
