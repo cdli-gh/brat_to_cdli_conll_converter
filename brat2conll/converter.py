@@ -46,11 +46,6 @@ class BratToCoNLLConverter:
         return form, lemma, xpostag
 
     def writeToFile(self):
-        # IDlist = map(lambda x: x[0], self.tokens)
-        # if len(IDlist) != len(set(IDlist)):
-        #     click.echo(
-        #         'Error: File {0}, Text {1} : IDs generated are not unique'.format(self.bratInputFileName,
-        #                                                                           self.outputFilename))
         outfile_name = os.path.join(self.outfolder, self.outputFilename + ".conll")
         with codecs.open(outfile_name, 'w+', 'utf-8') as outputFile:
             # outputFile.writelines("#new_text=" + self.outputFilename + "\n")
