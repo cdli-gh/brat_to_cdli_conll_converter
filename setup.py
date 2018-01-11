@@ -18,7 +18,7 @@ setup(
     install_requires=dependencies,
     entry_points={
         'console_scripts': [
-            'brat2conll = cli:main',
+            'brat2conll = brat_to_cdli_conll_converter.cli:main',
         ],
     },
     classifiers=[
