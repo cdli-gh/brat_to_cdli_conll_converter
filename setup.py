@@ -4,7 +4,7 @@ dependencies = ['click']
 
 setup(
     name='brat2conllconverter',
-    version='2.0.0',
+    version='2.0.1',
     url='https://github.com/cdli-gh/brat_to_cdli_conll_converter',
     license='BSD',
     author='Shraddha Manchekar',
