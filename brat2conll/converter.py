@@ -61,7 +61,10 @@ class BratToCoNLLConverter:
         listOfTokens = list()
 
         filename = re.split('[/ .]', self.bratInputFileName)
-        self.outputFilename = filename[1]
+        if len(filename) > 1:
+            self.outputFilename = filename[1]
+        elif len(filename) == 1:
+            self.outputFilename = filename[0]
 
         if len(line) == 0:
             pass
