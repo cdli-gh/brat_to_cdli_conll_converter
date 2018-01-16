@@ -60,11 +60,13 @@ class BratToCoNLLConverter:
         tokenizedLine = re.split('[\t  ]', line)
         listOfTokens = list()
 
-        filename = re.split('[/ .]', self.bratInputFileName)
-        if len(filename) > 1:
-            self.outputFilename = filename[1]
-        elif len(filename) == 1:
-            self.outputFilename = filename[0]
+        # filename = re.split('[/ .]', self.bratInputFileName)
+        # if len(filename) > 1:
+        #     self.outputFilename = filename[1]
+        # elif len(filename) == 1:
+        #     self.outputFilename = filename[0]
+
+        self.outputFilename = self.bratInputFileName
 
         if len(line) == 0:
             pass
