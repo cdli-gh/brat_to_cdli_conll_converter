@@ -62,9 +62,7 @@ class BratToCoNLLConverter:
 
         # filename = os.path.dirname(self.bratInputFileName)
 
-
-
-        filename = re.split('[. ]', self.bratInputFileName)
+        filename = re.split('[/ .]', self.bratInputFileName)
         # if len(filename) > 1:
         #     self.outputFilename = filename[1]
         # elif len(filename) == 1:
